@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Son ders</title>
+  <link rel ="stylesheet" href="son.css" />
+</head>
+<body>
+  <div> Htmlnson ders</div>
+  <form action="gonder.php" method="post">
+    <fieldset>
+      <legend>kisisel bilgiler
+      </legend>
+      <label for="isim">İsim:</label><input type="text" name="isim" id="isim" />
+      <br>
+      <label for="soyisim">Soy isim:</label><input type="text" name="soyisim" id="soyisim"/><br>
+      <label for="email">Email:</label><input type="text" name="email" id="email"/><br>
+      
+       <textarea name="adres" id="adres" rows="10" cols ="20" placeholder="Adresinizi giriniz...">
+         
+       </textarea>
+      <p><label for="sehir">Yasadiginiz sehir</label></p>
+      <select name="sehir">
+        
+      </select>
+      <option value="İzmir">İzmir</option>
+      <option value="Ankara">Ankara</option>
+      <option value="İstanbul">İstanbul</option>
+    </fieldset> 
+    <fieldset>
+      <legend>Hobiler</legend>
+      <label for="basket">Basketbol</label>
+      <input type="checkbox" name="check" value="basket"
+       id="basket" />      
+      Resim:<input type="checkbox" name="hobiler" value="Resim" />
+    Gitar:<input type="checkbox" name="hobiler" value="Gitar" checked />
+    </fieldset>
+    <fieldset>
+      <legend>Bildirim almak istiyormusunuz?</legend>
+    </fieldset>
+      
+    
+  </form>
+  
+</body>
+</html>
